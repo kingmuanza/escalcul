@@ -50,9 +50,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/datatables.net-dt/css/jquery.dataTables.css",
+              "node_modules/metro4/build/css/metro-all.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/metro4/build/js/metro.js",
+              "src/assets/js/jarvis.js",
+              "node_modules/datatables.net/js/jquery.dataTables.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -145,6 +151,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "escalcul"
+    }
+  },
+  "defaultProject": "escalcul",
+  "cli": {
+    "analytics": "3ac0711b-f63c-47a3-a70a-c244e2b544a8"
+  }
 }
